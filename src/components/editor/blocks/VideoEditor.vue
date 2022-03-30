@@ -1,7 +1,7 @@
 <template lang="pug">
 .p-5
-  span Video <br>
-  small.secondary upload all needed media in "Media" and select there
+  span {{ $t("video")}} <br>
+  small.secondary {{ $t("audioUploadText")}}
   br
   select( v-model="block.data.id" @change="save")
     option(
@@ -12,9 +12,9 @@
       | {{ nameId(m.id, m.name) }}
   br
   br
-  video.video(v-if="block.data.id && block.data.id !== 'undefined'" controls="true") Your browser does not support the video element.
+  video.video(v-if="block.data.id && block.data.id !== 'undefined'" controls="true") {{$t(doesNotSupportVideo)}}
     source(:src="link(block.data.id)")
-  p.secondary.center(v-else) Video not selected
+  p.secondary.center(v-else) {{$t("notSelected")}}
 </template>
 
 <script>

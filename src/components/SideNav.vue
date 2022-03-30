@@ -1,4 +1,4 @@
-<template lang="pug">
+  <template lang="pug">
 .side-nav(:class="{closed: !open, absolute: !isFixed}")
   .cont
     a.bars( v-if="!isFixed && (isFixed || !open)" @click="toggleMenu")

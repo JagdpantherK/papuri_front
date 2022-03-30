@@ -1,5 +1,5 @@
 <template lang="pug">
-p edit
+p {{$t("edit")}}
 </template>
 
 <script>

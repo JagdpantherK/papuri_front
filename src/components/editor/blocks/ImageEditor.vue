@@ -1,7 +1,7 @@
 <template lang="pug">
 .p-5
-  span Image <br>
-  small.secondary upload all needed media in "Media" and select there
+  span {{$t("image")}} <br>
+  small.secondary {{"audioUploadText"}}
   br
   select( v-model="block.data.imageId" @change="save")
     option(

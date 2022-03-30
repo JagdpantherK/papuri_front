@@ -1,5 +1,5 @@
 <template lang="pug">
-router-link.clickable(:to="{name: 'CreateRepo'}") Создать новую книгу
+router-link.clickable(:to="{name: 'CreateRepo'}") {{$t("createNewBook")}}
 BookList
 </template>
 

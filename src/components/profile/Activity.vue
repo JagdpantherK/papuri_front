@@ -1,5 +1,5 @@
 <template lang="pug">
-p activity
+p {{$t("activity")}}
 </template>
 
 <script>

@@ -1,9 +1,9 @@
 <template lang="pug">
 .settings
   .title General
-  p(@click="logOut").clickable Выйти из аккаунта
+  p(@click="logOut").clickable {{ $t("logOut")}}
   hr
-  .title User Credentials
+  .title {{$t("userCredentials")}}
   .input-wrapper
     input(placeholder="Email" v-model="email" name="settings_email")
   .input-wrapper

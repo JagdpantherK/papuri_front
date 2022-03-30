@@ -1,6 +1,6 @@
 <template lang="pug">
 a( @click="fetchReadClick")
-  button.btn.black-btn() Читать
+  button.btn.black-btn() {{$t("read")}}
 .stats Count: {{ info.files_count }} Size: {{ size(info.files_size) }}
 </template>
 

@@ -4,5 +4,20 @@ export default {
     signUp: "Sign Up",
     save: "Save",
     recentlyAdded: "Recently Added",
-    fileNotChosen: "file not chosen"
+    fileNotChosen: "file not chosen",
+    audio: "Audio",
+    audioUploadText: "upload all needed media in \"Media\" and select there",
+    image: "Image",
+    addOption: "+ Add Option",
+    video:"Video",
+    fileUploadingStatus:"File uploading status",
+    doesNotSupportVideo:"Your browser does not support the video element.",
+    notSelected:"Video not selected",
+    activity:"activity",
+    createNewBook:"Create a new book",
+    logOut:"Log out",
+    userCredentials:"User Credentials",
+    edit:"edit",
+    read:"read",
+
 }

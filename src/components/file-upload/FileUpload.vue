@@ -1,6 +1,6 @@
 <template lang="pug">
 .file-upload
-  h3(v-if="files.length > 0") File uploading status
+  h3(v-if="files.length > 0") {{ $t("fileUploadingStatus")}}
   ul
     template(v-for="file in files" :key="file.id")
       li {{ file.name }} - {{ size(file.uploadedSize) }}/{{ size(file.size) }} - {{ file.type }}
